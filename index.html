@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Director</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar">
+        <div class="nav-logo">Techathon</div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- ========== SECTION 1: HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-heading">
+                    <span class="hero-word">Creative</span>
+                    <span class="hero-word">Digital</span>
+                    <span class="hero-word">Experiences</span>
+                </h1>
+            </div>
+            <div class="hero-sphere-container">
+                <canvas id="sphereCanvas"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 2: FEATURED WORK ========== -->
+    <section class="featured-work" id="work">
+        <div class="featured-header">
+            <div class="featured-label">
+                <h3>Featured Work</h3>
+                <p>Explore our latest projects and creations</p>
+            </div>
+        </div>
+
+        <div class="featured-body">
+            <div class="featured-left-text">
+                <p class="flt-line">We design bold,</p>
+                <p class="flt-line">immersive digital</p>
+                <p class="flt-line">products that move</p>
+                <p class="flt-line">people to action.</p>
+            </div>
+
+            <div class="work-cards-container">
+                <div class="work-card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='280'%3E%3Crect fill='%231a4d7a' width='300' height='280'/%3E%3Ctext x='50%25' y='40%25' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EAurora%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='14' fill='%2300d4ff' text-anchor='middle' dominant-baseline='middle'%3EProject%3C/text%3E%3C/svg%3E"
+                        alt="Aurora" class="card-image">
+                    <div class="card-content">
+                        <h4 class="card-title">Aurora Project</h4>
+                        <p class="card-description">Interactive 3D experience with real-time rendering</p>
+                        <div class="card-icon plus-icon">+</div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='280'%3E%3Crect fill='%237a1a4d' width='300' height='280'/%3E%3Ctext x='50%25' y='40%25' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3ENexus%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='14' fill='%23ff006e' text-anchor='middle' dominant-baseline='middle'%3EInterface%3C/text%3E%3C/svg%3E"
+                        alt="Nexus" class="card-image">
+                    <div class="card-content">
+                        <h4 class="card-title">Nexus Interface</h4>
+                        <p class="card-description">Motion design and interactive UI components</p>
+                        <div class="card-icon plus-icon">+</div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='280'%3E%3Crect fill='%234d7a1a' width='300' height='280'/%3E%3Ctext x='50%25' y='40%25' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3ELumina%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='14' fill='%2300ff88' text-anchor='middle' dominant-baseline='middle'%3EStudios%3C/text%3E%3C/svg%3E"
+                        alt="Lumina" class="card-image">
+                    <div class="card-content">
+                        <h4 class="card-title">Lumina Studios</h4>
+                        <p class="card-description">Branding and digital transformation</p>
+                        <div class="card-icon plus-icon">+</div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='280'%3E%3Crect fill='%234d1a7a' width='300' height='280'/%3E%3Ctext x='50%25' y='40%25' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EPrism%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='14' fill='%2300d4ff' text-anchor='middle' dominant-baseline='middle'%3EDigital%3C/text%3E%3C/svg%3E"
+                        alt="Prism" class="card-image">
+                    <div class="card-content">
+                        <h4 class="card-title">Prism Digital</h4>
+                        <p class="card-description">Web experience and visual storytelling</p>
+                        <div class="card-icon plus-icon">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 3: SPHERE GALLERY ========== -->
+    <section class="sphere-gallery" id="gallery">
+        <div class="gallery-sticky">
+            <div class="gallery-label-top">
+                <span class="gallery-tag">Portfolio Gallery</span>
+            </div>
+            <!-- images positioned absolutely by JS -->
+            <div class="gallery-img" id="gi0">
+                <div class="gi-bg g1"></div>
+                <div class="gi-info"><span class="gi-title">Nebula</span><span class="gi-cat">3D Experience</span></div>
+            </div>
+            <div class="gallery-img" id="gi1">
+                <div class="gi-bg g2"></div>
+                <div class="gi-info"><span class="gi-title">Depths</span><span class="gi-cat">Motion Design</span></div>
+            </div>
+            <div class="gallery-img" id="gi2">
+                <div class="gi-bg g3"></div>
+                <div class="gi-info"><span class="gi-title">Aurora</span><span class="gi-cat">Interactive</span></div>
+            </div>
+            <div class="gallery-img" id="gi3">
+                <div class="gi-bg g4"></div>
+                <div class="gi-info"><span class="gi-title">Dusk</span><span class="gi-cat">Branding</span></div>
+            </div>
+            <div class="gallery-img" id="gi4">
+                <div class="gi-bg g5"></div>
+                <div class="gi-info"><span class="gi-title">Cosmos</span><span class="gi-cat">Web Design</span></div>
+            </div>
+            <div class="gallery-img" id="gi5">
+                <div class="gi-bg g6"></div>
+                <div class="gi-info"><span class="gi-title">Prism</span><span class="gi-cat">Visual Art</span></div>
+            </div>
+            <div class="gallery-img" id="gi6">
+                <div class="gi-bg g7"></div>
+                <div class="gi-info"><span class="gi-title">Jade</span><span class="gi-cat">Animation</span></div>
+            </div>
+            <div class="gallery-img" id="gi7">
+                <div class="gi-bg g8"></div>
+                <div class="gi-info"><span class="gi-title">Voltage</span><span class="gi-cat">UI/UX</span></div>
+            </div>
+            <div class="gallery-img" id="gi8">
+                <div class="gi-bg g9"></div>
+                <div class="gi-info"><span class="gi-title">Horizon</span><span class="gi-cat">Photography</span></div>
+            </div>
+            <div class="gallery-img" id="gi9">
+                <div class="gi-bg g10"></div>
+                <div class="gi-info"><span class="gi-title">Glacier</span><span class="gi-cat">3D Art</span></div>
+            </div>
+            <div class="gallery-img" id="gi10">
+                <div class="gi-bg g11"></div>
+                <div class="gi-info"><span class="gi-title">Eclipse</span><span class="gi-cat">Creative Dir.</span>
+                </div>
+            </div>
+            <div class="gallery-img" id="gi11">
+                <div class="gi-bg g12"></div>
+                <div class="gi-info"><span class="gi-title">Wave</span><span class="gi-cat">Digital Media</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 4: SCROLL TEXT TRANSITION ========== -->
+    <section class="scroll-text">
+        <div class="scroll-text-content">
+            <p class="scroll-paragraph">
+                We craft immersive digital experiences that captivate and inspire. Our approach combines cutting-edge
+                technology with thoughtful design to create solutions that resonate with your audience and drive
+                meaningful engagement.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 5: AWARDS TABLE ========== -->
+    <section class="awards">
+        <div class="awards-container">
+            <h2 class="awards-title">Recognition & Awards</h2>
+            <table class="awards-table">
+                <tr>
+                    <td class="award-main">WEBBY</td>
+                    <td>Best Interactive Design</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td class="award-main">AWWWARDS</td>
+                    <td>Website of the Day</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td class="award-main">FWA</td>
+                    <td>Cutting Edge</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td class="award-main">CSS DESIGN</td>
+                    <td>Innovation Award</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 6: ANIMATED GRADIENT CROSS ========== -->
+    <section class="gradient-cross-section">
+        <div class="cross-container">
+            <div class="gradient-cross"></div>
+        </div>
+        <div class="cross-text-content">
+            <p class="cross-word cross-word-1">Transforming</p>
+            <p class="cross-word cross-word-2">Digital</p>
+            <p class="cross-word cross-word-3">Innovation</p>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 7: CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="contact-left">
+            <p class="contact-line">We craft bold,</p>
+            <p class="contact-line">immersive digital</p>
+            <div class="contact-btn-row">
+                <p class="contact-line">experiences that</p>
+                <button class="cta-button" id="ctaBtn">
+                    <span class="button-text">Get in Touch</span>
+                    <span class="button-arrow">→</span>
+                </button>
+            </div>
+            <p class="contact-line">inspire and convert.</p>
+        </div>
+        <div class="contact-right">
+            <div class="contact-info">
+                <div class="info-column">
+                    <h4>Studio</h4>
+                    <p class="info-link">New York</p>
+                    <p class="info-link">London</p>
+                    <p class="info-link">Singapore</p>
+                    <p class="info-link">Tokyo</p>
+                </div>
+                <div class="info-column">
+                    <h4>Services</h4>
+                    <p class="info-link">Design</p>
+                    <p class="info-link">Development</p>
+                    <p class="info-link">Animation</p>
+                    <p class="info-link">Consulting</p>
+                </div>
+                <div class="info-column info-column-connect">
+                    <h4>Connect</h4>
+                    <p class="info-link info-underline">hello@studio.com</p>
+                    <p class="info-link info-slot" data-hover="reach@techathon.io">@studioinsta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 8: FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logos">
+                <div class="footer-logo">TensorFlow</div>
+                <div class="footer-logo">PyTorch</div>
+                <div class="footer-logo">Neural</div>
+                <div class="footer-logo">AI-Hub</div>
+            </div>
+            <div class="footer-text">
+                <h3>TECHATHON</h3>
+                <p>2026 © All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/SplitText.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script src="js/sphere.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
