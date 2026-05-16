@@ -1,3 +1,5 @@
+# Participated in Techathon:
+
 # 🚀 Modern Interactive Techathon site
 
 A premium, high-performance interactive Techathon site built with HTML5, CSS3, vanilla JavaScript, GSAP animations, and Three.js 3D graphics.
