@@ -262,11 +262,28 @@ footer {
     opacity: 1;
 }
 
+/* ========== CARD IMAGES - RESPONSIVE STYLING ========== */
+.card-picture {
+    display: block;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px 8px 0 0;
+}
+
 .card-image {
     width: 100%;
     height: 60%;
     object-fit: cover;
+    object-position: center;
     display: block;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    will-change: transform;
+}
+
+.work-card:hover .card-image {
+    transform: scale(1.08);
 }
 
 .card-content {
@@ -348,6 +365,9 @@ footer {
     position: absolute;
     inset: 0;
     transition: transform 0.4s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .gallery-img:hover .gi-bg {
@@ -764,6 +784,17 @@ footer {
 
     .work-cards-container {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        max-width: 100%;
+        gap: 25px;
+    }
+
+    .work-card {
+        max-width: 100%;
+        aspect-ratio: 1.07;
+    }
+
+    .card-picture {
+        height: 65%;
     }
 
     .contact {
@@ -817,8 +848,37 @@ footer {
         font-size: 18px;
     }
 
+    .featured-body {
+        flex-direction: column;
+        gap: 40px;
+    }
+
     .work-cards-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .work-card {
+        max-width: 100%;
+        min-height: auto;
+        aspect-ratio: 1.07;
+    }
+
+    .card-picture {
+        height: 60%;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-description {
+        font-size: 12px;
     }
 
     .contact-info {
@@ -852,6 +912,47 @@ footer {
 
     .hero-sphere-container {
         width: min(86vmin, 380px);
+    }
+
+    .featured-body {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .featured-left-text {
+        flex: none;
+    }
+
+    .work-cards-container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        gap: 15px;
+    }
+
+    .work-card {
+        max-width: 100%;
+        aspect-ratio: 1.07;
+        min-height: auto;
+    }
+
+    .card-picture {
+        height: 55%;
+    }
+
+    .card-content {
+        padding: 12px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-description {
+        font-size: 11px;
+    }
+
+    .plus-icon {
+        font-size: 24px;
     }
 
     .scroll-paragraph {
