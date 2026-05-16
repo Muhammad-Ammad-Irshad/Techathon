@@ -4,7 +4,7 @@
 
 ### Option A: VS Code with Live Server
 1. Open VS Code
-2. Open the `portfolio-site` folder: `File > Open Folder > D:\portfolio-site`
+2. Open the `Techathon site` folder: `File > Open Folder > D:\portfolio-site`
 3. Install Live Server extension (if not already installed)
 4. Right-click on `index.html` → "Open with Live Server"
 5. Your browser will open at `http://localhost:5500`
@@ -126,7 +126,7 @@ scrollTrigger: {
 ## File Structure Reference
 
 ```
-portfolio-site/
+Techathon site/
 ├── index.html          ← HTML content
 ├── css/
 │   └── style.css       ← All styling
@@ -140,7 +140,7 @@ portfolio-site/
 ## Next Steps
 
 1. **Customize colors** to match your brand
-2. **Update text** with your portfolio information
+2. **Update text** with your Techathon site information
 3. **Add your images** to the assets folder
 4. **Modify animations** to your preference
 5. **Deploy** to a hosting service
@@ -150,7 +150,7 @@ portfolio-site/
 ### Netlify (Recommended)
 1. Go to netlify.com
 2. Sign up with GitHub
-3. Drag and drop `portfolio-site` folder
+3. Drag and drop `Techathon site` folder
 4. Done! Your site is live
 
 ### GitHub Pages

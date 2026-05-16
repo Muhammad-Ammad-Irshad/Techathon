@@ -3,7 +3,7 @@
 ## Complete Project Layout
 
 ```
-portfolio-site/
+Techathon site/
 │
 ├── 📄 index.html                 # Main HTML file (9 animated sections)
 ├── 📄 README.md                  # Full documentation & features
@@ -228,7 +228,7 @@ portfolio-site/
 ## 📁 Directory Tree Details
 
 ```
-portfolio-site/                    # Root folder
+Techathon site/                    # Root folder
 │
 ├── index.html                     # 392 lines
 │   ├── 9 sections
@@ -337,19 +337,19 @@ portfolio-site/                    # Root folder
 ## 🎯 Use Cases
 
 ### Perfect For
-- Portfolio websites
+- Techathon site websites
 - Creative agencies
 - Product showcases
 - Interactive presentations
 - Modern landing pages
 - Educational projects
-- Freelancer portfolios
+- Freelancer Techathon sites
 
 ### Can Be Adapted For
 - E-commerce sites
 - SaaS product pages
 - Event websites
-- Design portfolios
+- Design Techathon sites
 - Music/media sites
 - Web applications
 - Interactive storytelling

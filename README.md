@@ -1,6 +1,6 @@
-# 🚀 Modern Interactive Portfolio Website
+# 🚀 Modern Interactive Techathon site
 
-A premium, high-performance interactive portfolio website built with HTML5, CSS3, vanilla JavaScript, GSAP animations, and Three.js 3D graphics.
+A premium, high-performance interactive Techathon site built with HTML5, CSS3, vanilla JavaScript, GSAP animations, and Three.js 3D graphics.
 
 ## 📋 Features
 
@@ -68,7 +68,7 @@ A premium, high-performance interactive portfolio website built with HTML5, CSS3
 ## 📁 Project Structure
 
 ```
-portfolio-site/
+Techathon site/
 ├── index.html          # Main HTML file with all sections
 ├── css/
 │   └── style.css       # All styling and animations

@@ -1,6 +1,6 @@
 # 🎨 Customization & Configuration Guide
 
-This guide covers advanced customization options for the portfolio website.
+This guide covers advanced customization options for the Techathon site.
 
 ## 📝 Table of Contents
 1. [Color Customization](#color-customization)
